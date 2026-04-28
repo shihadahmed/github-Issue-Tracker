@@ -74,8 +74,32 @@ function add(a, b) {
 const add = (a, b) => a + b;
 ```
 
-5️⃣ What are template literals?
+---
 
+### 5️⃣ What are Template Literals?
+
+**Answer:** Template literals are a modern way to handle strings in JavaScript that allow for easier text formatting and variable embedding. Instead of using standard single (`' '`) or double quotes (`" "`), they utilize **backticks** (`` ` ``).
+
+* **The Problem (Concatenation):** In older versions of JavaScript, joining text and variables required multiple plus signs (`+`) and careful management of spaces, which often led to errors.
+* **The Solution (Interpolation):** With template literals, variables can be inserted directly into the string using the `${variable}` syntax. This makes the code much more readable and easier to maintain.
+
+**Comparison:**
+
+| Feature | Traditional String (Hard Way) | Template Literal (Easy Way) |
+| :--- | :--- | :--- |
+| **Syntax** | `"Text " + variable + " Text"` | `` `Text ${variable} Text` `` |
+| **Multiline** | Requires `\n` character | Supports natural line breaks |
+
+**Example:**
+```javascript
+const name = "User";
+
+// Traditional Way
+const message1 = "Hello " + name + ", welcome!";
+
+// Template Literal Way
+const message2 = `Hello ${name}, welcome!`;
+```
 ---
 
 ## 🛠️ Technology Stack
