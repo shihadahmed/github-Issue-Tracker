@@ -31,8 +31,6 @@ async function loadIssues() {
     }
 }
 
-
-
 // 3. Exact Design Card Display 
 function displayCards(issues) {
     grid.innerHTML = '';
@@ -82,7 +80,6 @@ function displayCards(issues) {
             `;
         }).join('');
         // --- labels mapping logic end ---
-
         const cardWrapper = document.createElement('div');
         cardWrapper.className = `card bg-white border border-slate-100 border-t-[6px] shadow-sm rounded-xl hover:shadow-md transition-all cursor-pointer`;
         cardWrapper.style.borderTopColor = pConfig.borderColor; 
