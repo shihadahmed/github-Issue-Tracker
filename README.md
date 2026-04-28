@@ -27,6 +27,7 @@ const originalArray = [10, 20, 30];
 const combinedArray = [...originalArray, 40, 50]; 
 
 // Resulting array: [10, 20, 30, 40, 50]
+``` 
 
 ---
 
