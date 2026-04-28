@@ -102,13 +102,6 @@ const message2 = `Hello ${name}, welcome!`;
 ```
 ---
 
-## 🛠️ Technology Stack
-
-- **HTML**
-- **CSS** (Vanilla/Tailwind/DaisyUI)
-- **JavaScript** (Vanilla)
-
----
 
 ## 🔑 Demo Credentials
 
