@@ -53,8 +53,27 @@ const combinedArray = [...originalArray, 40, 50];
 
 ---
 
+### 4️⃣ What is an arrow function (`=>`)?
 
-4️⃣ What is an arrow function?
+**Answer:** An arrow function is a more concise and modern syntax for writing function expressions in JavaScript. It is often referred to as a "shortcut" because it reduces the amount of code needed.
+
+* **Traditional Way:** It requires the use of the `function` keyword and curly braces with a `return` statement for even simple operations.
+* **Arrow Function Way:** It replaces the `function` keyword with a "fat arrow" `=>`. For single-line operations, it allows for an "implicit return," meaning the `return` keyword and curly braces can often be omitted.
+
+
+
+**Comparison Example:**
+
+```javascript
+// Traditional Function
+function add(a, b) {
+    return a + b;
+}
+
+// Arrow Function
+const add = (a, b) => a + b;
+```
+
 5️⃣ What are template literals?
 
 ---
