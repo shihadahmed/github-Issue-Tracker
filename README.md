@@ -11,8 +11,27 @@
 * **`const`**: The **"locked box."** 🔒  
     Once you put something in here, you can’t change it. Use this for things like your birthday (**06.03.1998**) or a fixed API URL.
 
-2️⃣ What is the spread operator (...)?
-3️⃣ What is the difference between map(), filter(), and forEach()?
+---
+
+### 2️⃣ What is the spread operator (`...`)?
+
+**Answer:** The spread operator is represented by three dots `...`. It functions like a universal **"copy-all"** tool for data structures.
+
+> 💡 **The Concept:** When there is a list of items (an array) and those items need to be included into a new list, the `...` operator is used. It "spreads" the individual elements of the existing array into the new one, eliminating the need to type each item manually.
+
+
+
+**Example:**
+```javascript
+const originalArray = [10, 20, 30];
+const combinedArray = [...originalArray, 40, 50]; 
+
+// Resulting array: [10, 20, 30, 40, 50]
+
+---
+
+
+
 4️⃣ What is an arrow function?
 5️⃣ What are template literals?
 
