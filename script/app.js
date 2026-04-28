@@ -1,7 +1,6 @@
-
 // Form element select kora
 const myForm = document.getElementById('loginForm');
-const errorText = document.getElementById('error-message'); // Error element ta dhorlam
+const errorText = document.getElementById('error-message');
 
 // Login logic function
 function checkLogin(e) {
@@ -15,14 +14,15 @@ function checkLogin(e) {
         localStorage.setItem('isLoggedIn', 'true');
         window.location.href = 'home.html'; 
     } else {
-        errorText.innerHTML = 'Invalid Username or Password! </br> Please use the demo credentials.'
+        
+        errorText.innerHTML = 'Invalid Username or Password! <br> Please use the demo credentials.';
         errorText.classList.remove('hidden');
         
-        // 3 second por error message ta automatic muche jabe
         setTimeout(() => {
             errorText.classList.add('hidden');
         }, 3000);
     }
+}
 
 // Form event listener
 if (myForm) {
