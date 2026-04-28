@@ -30,6 +30,27 @@ const combinedArray = [...originalArray, 40, 50];
 
 ---
 
+### 3️⃣ What is the difference between `map()`, `filter()`, and `forEach()`?
+
+**Answer:** These are array methods used to process lists of data. To understand their differences, they can be categorized by their specific roles:
+
+* **`forEach()` (The Visitor):** It visits every item in the list and performs a specific task (such as `console.log` or updating a variable). It **does not return** anything new; its purpose is simply to execute an action for each element.
+
+* **`map()` (The Transformer):** It takes an existing list, applies a change to every single item (for example, converting titles to uppercase), and **returns a brand-new list** with the modified data. The original list remains unchanged.
+
+* **`filter()` (The Bouncer):** It checks each item against a specific condition (such as "only keep High Priority items"). It **returns a new, shorter list** containing only the items that meet that condition.
+
+
+
+**Quick Comparison:**
+
+| Method | Returns a New List? | Typical Use Case |
+| :--- | :--- | :--- |
+| **forEach** | No | Printing data or saving to a database. |
+| **map** | Yes | Formatting data for display (e.g., creating HTML cards). |
+| **filter** | Yes | Searching or removing unwanted items from a view. |
+
+---
 
 
 4️⃣ What is an arrow function?
